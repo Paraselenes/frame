@@ -9,6 +9,12 @@ import android.os.Bundle;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import com.xiaohei.home.fragment.HomeFragment;
+import com.xiaohei.home.fragment.HomeFragment1;
+import com.xiaohei.home.fragment.HomeFragment2;
+import com.xiaohei.home.fragment.HomeFragment3;
+import com.xiaohei.home.utils.FragmentUtils;
+
 public class MainActivity extends AppCompatActivity {
     private final int FIRST = 0;
     private final int SECOND = 1;

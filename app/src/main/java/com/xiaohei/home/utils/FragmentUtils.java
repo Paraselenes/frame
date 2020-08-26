@@ -1,4 +1,4 @@
-package com.xiaohei.home;
+package com.xiaohei.home.utils;
 
 import android.graphics.drawable.Drawable;
 import android.os.Build;
