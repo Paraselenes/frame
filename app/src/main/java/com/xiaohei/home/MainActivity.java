@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentUtils.add(supportFragmentManager, mFragments, R.id.fragment_contain, FIRST);
 
-
         RadioGroup group = findViewById(R.id.radio_group);
         RadioButton home = findViewById(R.id.btn_main_home);
         RadioButton recommend = findViewById(R.id.btn_main_recommend);
@@ -47,15 +46,12 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.btn_main_home:
                         showCurrentFragment(FIRST);
                         break;
-
                     case R.id.btn_main_recommend:
                         showCurrentFragment(SECOND);
                         break;
-
                     case R.id.btn_main_indent:
                         showCurrentFragment(THIRD);
                         break;
-
                     case R.id.btn_main_my:
                         showCurrentFragment(FOURTH);
                         break;

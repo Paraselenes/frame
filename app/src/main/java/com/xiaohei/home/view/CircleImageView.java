@@ -26,6 +26,7 @@ import com.xiaohei.home.R;
 
 /**
  * created by ck on 2020/8/26
+ * 是用的时候需要把res/values下的att.xml文件复制一份,或自己写
  */
 public class CircleImageView extends androidx.appcompat.widget.AppCompatImageView {
 
